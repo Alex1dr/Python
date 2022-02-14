@@ -19,7 +19,6 @@ while True:
             print("".join(input_list))
             input_letter = input("Input a letter: ")
 
-
             for i in range(len(random_word)):
                 if input_letter == random_word[i] and input_letter not in all_litters_list:
                     input_list[i] = input_letter
@@ -39,11 +38,9 @@ while True:
 
             if '-' not in input_list:
                 break
-
         input_list_ = "".join(input_list)
         if input_list_ == random_word:
             #print()
             print(f"You guessed the word {input_list_}!\nYou survived!")
         else:
             print("You lost!")
-
