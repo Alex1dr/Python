@@ -14,14 +14,10 @@ while True:
         eng_lowercase_letters = list("eyuioaqwrtpsdfghjklzxcvbnm")
         while lives <= 8:
             flag_ = False
-            flag_double = False
 
             print('')
             print("".join(input_list))
             input_letter = input("Input a letter: ")
-
-            if input_letter in all_litters_list:
-                flag_double = True
 
 
             for i in range(len(random_word)):
